@@ -8,6 +8,10 @@ propeller is damaged, the controller plans with per-rotor thrust limits **certif
 one second of flight data** by [ddma](https://github.com/anas-makdesi/ddma), and keeps
 flying where the others crash.
 
+![Figure-8 at 10 m/s with a damaged rotor: certified thrust flies, rated thrust crashes](docs/figures/demo.gif)
+
+*Rotor 3 limited to 3.5 N, figure-8 at 10 m/s: planning with the rated 7 N, the NMPC crashes after 5.4 s; with the limits certified by ddma (3.48 N), it flies the whole run with 0.10 m RMS error ([script](examples/demo_gif.py)).*
+
 | | |
 |---|---|
 | **≈ 0.4 ms** | median solve time per control step (acados, real-time iteration, 25 shooting intervals, 100 Hz); worst case over two laps ≈ 1.1 ms. 200 Hz fits as well |
