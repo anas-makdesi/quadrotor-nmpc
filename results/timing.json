@@ -1,0 +1,88 @@
+{
+  "rti_N15": {
+    "steps": 891,
+    "median_ms": 0.269,
+    "p99_ms": 0.421,
+    "max_ms": 1.848,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "N": 15,
+    "rate_hz": 100,
+    "rms_error_cm": 1.4,
+    "crashed": false
+  },
+  "rti_N25": {
+    "steps": 891,
+    "median_ms": 0.405,
+    "p99_ms": 0.648,
+    "max_ms": 1.129,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "N": 25,
+    "rate_hz": 100,
+    "rms_error_cm": 1.8,
+    "crashed": false,
+    "python_step_median_ms": 3.961
+  },
+  "rti_N40": {
+    "steps": 891,
+    "median_ms": 0.634,
+    "p99_ms": 1.051,
+    "max_ms": 2.692,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "N": 40,
+    "rate_hz": 100,
+    "rms_error_cm": 2.0,
+    "crashed": false
+  },
+  "rti_N30_200Hz": {
+    "steps": 1782,
+    "median_ms": 0.442,
+    "p99_ms": 0.758,
+    "max_ms": 1.971,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "N": 30,
+    "rate_hz": 200,
+    "rms_error_cm": 1.7,
+    "crashed": false
+  },
+  "sqp_N25": {
+    "steps": 891,
+    "median_ms": 1.859,
+    "p99_ms": 3.408,
+    "max_ms": 7.524,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.11,
+    "N": 25,
+    "rate_hz": 100,
+    "rms_error_cm": 1.8,
+    "crashed": false,
+    "iterations_median": 5,
+    "iterations_max": 8
+  },
+  "linear_mpc_8ms": {
+    "steps": 891,
+    "median_ms": 0.356,
+    "p99_ms": 0.661,
+    "max_ms": 2.556,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "rms_error_cm": 25.2,
+    "crashed": false,
+    "python_step_median_ms": 3.744,
+    "note": "figure-8 at 8 m/s (crashes at 10 m/s); QP solve time only"
+  },
+  "geometric": {
+    "steps": 891,
+    "median_ms": 0.487,
+    "p99_ms": 1.103,
+    "max_ms": 2.222,
+    "over_10ms_pct": 0.0,
+    "over_5ms_pct": 0.0,
+    "rms_error_cm": 4.4,
+    "crashed": false,
+    "note": "Python implementation"
+  }
+}

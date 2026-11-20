@@ -1,0 +1,13 @@
+{
+  "seconds": 8.9,
+  "steps": 888,
+  "failed_solves": 0,
+  "rms_error_m": 0.1403,
+  "max_error_m": 0.4158,
+  "solve_ms_median": 0.483,
+  "solve_ms_p99": 1.201,
+  "step_ms_median": 0.57,
+  "latency_ms_median": 0.711,
+  "latency_ms_p99": 1.536,
+  "latency_ms_max": 3.133
+}

@@ -1,0 +1,10 @@
+# Example parameters (ros2 run ... --ros-args --params-file params.yaml)
+quad_sim:
+  ros__parameters:
+    v_peak: 10.0
+    state_rate_hz: 100.0
+    rotor_max_thrust: [7.0, 7.0, 3.5, 7.0]   # damaged rotor 3
+nmpc:
+  ros__parameters:
+    v_peak: 10.0
+    thrust_limits: [6.56, 5.53, 3.48, 6.27]   # certified by examples/figure8_comparison.py

@@ -1,0 +1,296 @@
+{
+  "sweep": {
+    "4": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 22.26,
+        "rms_error": 0.004,
+        "max_error": 0.018,
+        "max_tilt_deg": 21.4,
+        "max_thrust": 2.56,
+        "solve_ms_median": 0.392,
+        "solve_ms_p99": 4.488,
+        "solve_ms_max": 8.502
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": false,
+        "duration": 22.26,
+        "rms_error": 0.006,
+        "max_error": 0.014,
+        "max_tilt_deg": 21.4,
+        "max_thrust": 2.76,
+        "solve_ms_median": 0.47,
+        "solve_ms_p99": 0.803,
+        "solve_ms_max": 0.934
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": false,
+        "duration": 22.26,
+        "rms_error": 0.015,
+        "max_error": 0.026,
+        "max_tilt_deg": 21.3,
+        "max_thrust": 2.68,
+        "solve_ms_median": 0.324,
+        "solve_ms_p99": 0.553,
+        "solve_ms_max": 0.615
+      }
+    },
+    "6": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 14.84,
+        "rms_error": 0.006,
+        "max_error": 0.027,
+        "max_tilt_deg": 40.6,
+        "max_thrust": 2.93,
+        "solve_ms_median": 0.389,
+        "solve_ms_p99": 0.584,
+        "solve_ms_max": 1.834
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": false,
+        "duration": 14.84,
+        "rms_error": 0.013,
+        "max_error": 0.021,
+        "max_tilt_deg": 40.6,
+        "max_thrust": 3.3,
+        "solve_ms_median": 0.465,
+        "solve_ms_p99": 0.686,
+        "solve_ms_max": 0.881
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": false,
+        "duration": 14.84,
+        "rms_error": 0.08,
+        "max_error": 0.138,
+        "max_tilt_deg": 40.2,
+        "max_thrust": 3.23,
+        "solve_ms_median": 0.331,
+        "solve_ms_p99": 0.6,
+        "solve_ms_max": 0.666
+      }
+    },
+    "8": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 11.12,
+        "rms_error": 0.011,
+        "max_error": 0.04,
+        "max_tilt_deg": 56.8,
+        "max_thrust": 3.45,
+        "solve_ms_median": 0.338,
+        "solve_ms_p99": 0.401,
+        "solve_ms_max": 0.5
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": false,
+        "duration": 11.12,
+        "rms_error": 0.024,
+        "max_error": 0.036,
+        "max_tilt_deg": 56.9,
+        "max_thrust": 3.87,
+        "solve_ms_median": 0.462,
+        "solve_ms_p99": 0.51,
+        "solve_ms_max": 0.598
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": false,
+        "duration": 11.12,
+        "rms_error": 0.26,
+        "max_error": 0.463,
+        "max_tilt_deg": 68.8,
+        "max_thrust": 4.56,
+        "solve_ms_median": 0.333,
+        "solve_ms_p99": 0.612,
+        "solve_ms_max": 0.722
+      }
+    },
+    "10": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 8.9,
+        "rms_error": 0.018,
+        "max_error": 0.049,
+        "max_tilt_deg": 67.6,
+        "max_thrust": 4.84,
+        "solve_ms_median": 0.379,
+        "solve_ms_p99": 0.653,
+        "solve_ms_max": 0.855
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": false,
+        "duration": 8.9,
+        "rms_error": 0.044,
+        "max_error": 0.073,
+        "max_tilt_deg": 68.0,
+        "max_thrust": 5.98,
+        "solve_ms_median": 0.478,
+        "solve_ms_p99": 0.931,
+        "solve_ms_max": 4.032
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": true,
+        "duration": 1.59,
+        "rms_error": 0.814,
+        "max_error": 2.015,
+        "max_tilt_deg": 176.5,
+        "max_thrust": 7.0,
+        "solve_ms_median": 0.639,
+        "solve_ms_p99": 1.237,
+        "solve_ms_max": 1.364
+      }
+    },
+    "11": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 8.09,
+        "rms_error": 0.022,
+        "max_error": 0.051,
+        "max_tilt_deg": 71.5,
+        "max_thrust": 5.67,
+        "solve_ms_median": 0.399,
+        "solve_ms_p99": 0.659,
+        "solve_ms_max": 0.742
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": false,
+        "duration": 8.09,
+        "rms_error": 0.056,
+        "max_error": 0.088,
+        "max_tilt_deg": 72.5,
+        "max_thrust": 7.0,
+        "solve_ms_median": 0.488,
+        "solve_ms_p99": 1.089,
+        "solve_ms_max": 2.89
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": true,
+        "duration": 0.59,
+        "rms_error": 0.685,
+        "max_error": 1.898,
+        "max_tilt_deg": 150.0,
+        "max_thrust": 7.0,
+        "solve_ms_median": 0.637,
+        "solve_ms_p99": 1.41,
+        "solve_ms_max": 1.43
+      }
+    },
+    "12": {
+      "nmpc": {
+        "name": "NMPC (acados)",
+        "crashed": false,
+        "duration": 7.41,
+        "rms_error": 0.026,
+        "max_error": 0.05,
+        "max_tilt_deg": 75.1,
+        "max_thrust": 6.81,
+        "solve_ms_median": 0.397,
+        "solve_ms_p99": 0.586,
+        "solve_ms_max": 0.718
+      },
+      "geometric": {
+        "name": "Geometric + flatness",
+        "crashed": true,
+        "duration": 1.78,
+        "rms_error": 0.644,
+        "max_error": 2.076,
+        "max_tilt_deg": 110.0,
+        "max_thrust": 7.0,
+        "solve_ms_median": 0.477,
+        "solve_ms_p99": 0.56,
+        "solve_ms_max": 0.595
+      },
+      "linear_mpc": {
+        "name": "Linear MPC (OSQP)",
+        "crashed": true,
+        "duration": 0.54,
+        "rms_error": 0.793,
+        "max_error": 1.994,
+        "max_tilt_deg": 166.0,
+        "max_thrust": 7.0,
+        "solve_ms_median": 0.601,
+        "solve_ms_p99": 0.897,
+        "solve_ms_max": 0.928
+      }
+    }
+  },
+  "damaged_rotor": {
+    "nominal": {
+      "name": "NMPC, rated thrust 7 N",
+      "crashed": true,
+      "duration": 5.41,
+      "rms_error": 0.784,
+      "max_error": 2.026,
+      "max_tilt_deg": 92.0,
+      "max_thrust": 7.0,
+      "solve_ms_median": 0.489,
+      "solve_ms_p99": 1.2,
+      "solve_ms_max": 1.274
+    },
+    "certified": {
+      "name": "NMPC, ddma-certified thrust",
+      "crashed": false,
+      "duration": 8.9,
+      "rms_error": 0.101,
+      "max_error": 0.229,
+      "max_tilt_deg": 69.7,
+      "max_thrust": 6.56,
+      "solve_ms_median": 0.48,
+      "solve_ms_p99": 0.812,
+      "solve_ms_max": 3.266
+    },
+    "oracle": {
+      "name": "NMPC, true limits (oracle)",
+      "crashed": false,
+      "duration": 8.9,
+      "rms_error": 0.091,
+      "max_error": 0.18,
+      "max_tilt_deg": 68.8,
+      "max_thrust": 6.69,
+      "solve_ms_median": 0.453,
+      "solve_ms_p99": 0.844,
+      "solve_ms_max": 2.677
+    },
+    "geometric": {
+      "name": "Geometric + flatness",
+      "crashed": true,
+      "duration": 1.83,
+      "rms_error": 0.783,
+      "max_error": 1.986,
+      "max_tilt_deg": 133.7,
+      "max_thrust": 7.0,
+      "solve_ms_median": 0.486,
+      "solve_ms_p99": 0.668,
+      "solve_ms_max": 0.834
+    }
+  },
+  "meta": {
+    "rated_thrust": 7.0,
+    "damaged_rotor": 3,
+    "damaged_max_thrust": 3.5,
+    "certified_max_thrust": [
+      6.56,
+      5.53,
+      3.48,
+      6.27
+    ],
+    "thrust_check_samples": 150,
+    "thrust_check_duration_s": 1.0,
+    "measurement_noise_N": 0.15
+  }
+}
